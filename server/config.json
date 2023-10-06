@@ -14,26 +14,21 @@
   "serverBasicConfig": {
     "server-name": "A Move-to-Here Server",
 
-    "#": "你可以理解为：服务器正版验证",
-    "#": "当该功能启用时，只有客户端和服务端拥有相同的token时，才能相互建立通信",
-    "online-mode": {
+    "#": "加密传输数据",
+    "#": "使用key值作为加密密钥，加密传输的数据，这会保证数据在传输时的安全，但可能会大大降低传输效率",
+    "encryption-mode": {
       "enable": false,
-      "token": "",
-
-      "#": "加密传输数据",
-      "#": "使用token值作为加密密钥，加密传输的数据，这会保证数据在传输时的安全，但可能会大大降低传输效率",
-      "#": "只有online-mode开启时，这些设置才能生效",
-      "enable-encryption": false
+      "key": ""
     }
   },
 
   "ipconfig": {
     "#": "IP地址设置，服务器将会监听您设置的IP和对应的端口",
     "#": "服务器运行后，访问服务器则需要以下的IP地址和端口",
-    "server-ip": "",
-    "server-port": ""
+    "server-ip": "127.0.0.1",
+    "server-port": 13890
   },
 
   "#": "服务器允许的最大连接数量",
-  "max_connect": "15"
+  "max_connect": 15
 }
