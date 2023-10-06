@@ -63,7 +63,7 @@ class TCPServer:
                 self.config = json.loads(f.read())
             self.logging.info("config file load successfully!")
         except Exception as e:
-            self.logging.error("{}".format(e))
+            self.logging.error("{}".format(e)) # EEE EEEE
             self.logging.info("stopping server ...")
             sys.exit()
 
