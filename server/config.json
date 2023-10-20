@@ -1,6 +1,6 @@
 {
   "#": "Move-to-Here 服务端配置文件, powered by XFTY",
-  "#": "Move-to-Here 遵循GNU-GPL协议和附加协议开源",
+  "#": "Move-to-Here 遵循MPL-2.0协议和附加协议开源",
 
   "serverVersion": "a-132955438",
   "configVersion": "v-1.0",
