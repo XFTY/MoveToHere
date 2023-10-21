@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "electron": "^27.0.2"
+  },
+  "name": "movetohereui",
+  "version": "0.1.2",
+  "description": "A MoveToHere UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "XFTY",
+  "license": "MPL-2.0"
+}
