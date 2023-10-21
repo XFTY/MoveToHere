@@ -1,0 +1,23 @@
+<!--index.html-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>MoveToHere Client - A FileStation - version: 0.1.2</title>
+  </head>
+  <body>
+    <h1>欢迎使用!</h1>
+
+    <p>MoveToHere ui框架将使用electron框架！敬请期待！</p>
+
+    <p>Node.js: <span id="node-version"></span></p>
+    <p>Chromium: <span id="chrome-version"></span></p>
+    <p>Electron: <span id="electron-version"></span></p>
+
+    <!-- 您也可以此进程中运行其他文件 -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
